@@ -1,0 +1,56 @@
+name: task_osama
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  provider: ^6.0.3
+  flutter_svg: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  fonts:
+      - family: alfont_com
+        fonts:
+          - asset: assets/fonts/arabic/alfont_com_AlFont_com_URW-DIN-Arabic.ttf
+            weight: 400
+          - asset: assets/fonts/arabic/alfont_com_AlFont_com_URW-DIN-Arabic-SemiCond-Demi.ttf
+            weight: 600
+          - asset: assets/fonts/arabic/alfont_com_AlFont_com_URW-DIN-Arabic-SemiCond-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/arabic/alfont_com_AlFont_com_URW-DIN-Arabic-Thin-1.ttf
+            weight: 300
+          - asset: assets/fonts/arabic/FontsFree-Net-URW-DIN-Arabic-Bold-1.ttf
+            weight: 700
+      - family: Poppins
+        fonts:
+          - asset: assets/fonts/Poppins-Light.ttf
+            weight: 100
+          - asset: assets/fonts/Poppins-Regular.ttf
+            weight: 200
+          - asset: assets/fonts/Poppins-Bold.ttf
+            weight: 300
+          - asset: assets/fonts/Poppins-SemiBold.ttf
+            weight: 400
+          - asset: assets/fonts/Poppins-Medium.ttf
+            weight: 500
+
+  uses-material-design: true
+  assets:
+      - assets/icons/
